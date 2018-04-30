@@ -11,7 +11,9 @@ body {
 }
 
 body {
-    font: normal @ini_font_size/@ini_line_height 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Hiragino Kaku Gothic Pro",Meiryo,"Malgun Gothic","Helvetica Neue",sans-serif;
+    font-size: @ini_font_size;
+    line-height: @ini_line_height;
     /* default font size: 100% => 16px; 93.75% => 15px; 87.5% => 14px; 81.25% => 13px; 75% => 12px */
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -28,6 +30,7 @@ h5,
 h6 {
     padding: 0;
     clear: left;
+    font-weight: 100;
 }
 
 [dir=rtl] h1,

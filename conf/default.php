@@ -7,5 +7,5 @@
  */
 
 $conf['numberedHeading']           = 0;
-$conf['tocPosition']               = 'wikipedia';
+$conf['tocPosition']               = 'dokuwiki';
 $conf['footer']                    = '';
